@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230, 199, 138);
+    color: white;
+}
+
+#container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(69, 37, 69);
+    background-color: rgb(69, 37, 69);
+    border-radius: 10px;
+}
+
+#title{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    margin-bottom: 30px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+    color: rgb(69, 37, 69);
+    width: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+input::placeholder{
+    color: rgb(69, 37, 69);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#selector{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#from, #to{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#from img, #to img{
+    height: 50px;
+    width: auto;
+
+}
+
+select{
+    background-color: rgb(69, 37, 69);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+#final-msg{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: xx-large;
+    color: rgb(69, 37, 69);
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(230, 199, 138);
+}
